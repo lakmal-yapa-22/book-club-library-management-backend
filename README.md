@@ -104,7 +104,7 @@ You can import both files into Postman.
 
 Screenshots from Postman (API testing):
 
-| ![Postman](src/postman/screenshort/Screenshot%202025-07-27%20181240.png) |
+| ![Postman](src/postman/screenshort/Screenshot%202025-07-27%20181240.png) (src/postman/screenshort/Screenshot 2025-07-27 181317.png)(src/postman/screenshort/Screenshot 2025-07-27 181629.png)(src/postman/screenshort/Screenshot 2025-07-27 181800.png) |
 |:--:|
 | *Postman – Lending API Test* |
 
