@@ -92,10 +92,10 @@ Your server will be running at: [http://localhost:3000](http://localhost:3000)
 ## 🔄 Sample Data & API Testing
 
 ### 📁 Postman Collection
-- `book-club-library.postman_collection.json` – Ready-to-use API testing collection
+- `src/postman/Library_React_backend.postman_collection.json` – Ready-to-use API testing collection
 
 ### 📁 Sample Data
-- `sample_data.json` – Includes sample books, readers, and lending data  
+- `src/postman/Library_React_backend.postman_collection.json` – Includes sample books, readers, and lending data  
 - Use MongoDB Compass or Postman to import
 
 ### 🔐 JWT Authentication
