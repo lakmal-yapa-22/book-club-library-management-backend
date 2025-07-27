@@ -100,51 +100,9 @@ You can import both files into Postman.
 
 ---
 
-## 📚 API Overview
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/auth/login` | Staff login |
-| GET | `/api/readers` | Get all readers |
-| POST | `/api/readers` | Add a new reader |
-| PUT | `/api/readers/:id` | Update reader details |
-| DELETE | `/api/readers/:id` | Delete a reader |
-| GET | `/api/books` | Get all books |
-| POST | `/api/books` | Add a new book |
-| PUT | `/api/books/:id` | Update book info |
-| DELETE | `/api/books/:id` | Delete a book |
-| POST | `/api/lendings` | Lend a book |
-| PUT | `/api/lendings/return/:id` | Mark book as returned |
-| GET | `/api/lendings/history` | View lending history |
-| GET | `/api/overdue` | List overdue books & readers |
-| POST | `/api/overdue/notify` | Send email to overdue readers |
-
----
-
-## 📁 Project Structure
-
-```
-book-club-library-management-backend/
-├── controllers/
-├── routes/
-├── models/
-├── middlewares/
-├── utils/
-├── .env.example
-├── sample_data.json
-├── book-club-library.postman_collection.json
-├── screenshots/
-│   ├── login.png
-│   ├── add-reader.png
-│   └── lend-book.png
-├── README.md
-└── ...
-```
-
----
-
 ## 📸 Screenshots
-Screenshots from Postman (API testing) are available in `/screenshots/` folder.
+Screenshots from Postman (API testing)
+ | ![Postman](src/postman/screenshort/Screenshot 2025-07-27 181240.png)
 
 ---
 
