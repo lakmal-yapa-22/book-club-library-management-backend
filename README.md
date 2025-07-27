@@ -101,8 +101,13 @@ You can import both files into Postman.
 ---
 
 ## 📸 Screenshots
-Screenshots from Postman (API testing)
- | ![Postman](src/postman/screenshort/Screenshot 2025-07-27 181240.png)
+
+Screenshots from Postman (API testing):
+
+| ![Postman](src/postman/screenshort/Screenshot%202025-07-27%20181240.png) |
+|:--:|
+| *Postman – Lending API Test* |
+
 
 ---
 
