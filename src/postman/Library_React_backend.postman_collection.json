@@ -1,0 +1,219 @@
+{
+	"info": {
+		"_postman_id": "5800f962-a10a-4819-ac9c-5c5f00c268be",
+		"name": "Library_React_backend",
+		"description": "For API Fundamentals Student Expert\n\npublishedCourseId: `2q2jokzsn62y8`\n\nlessonId: `go6mgkytvk8u`\n\nid: `2q2jokzsn62y8:go6mgkytvk8u`",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "40383150",
+		"_collection_link": "https://lakmal-7988.postman.co/workspace/Postman-API-Fundamentals-Studen~a7e4f564-dbee-4e9a-8779-4c3182f2af36/collection/40383150-5800f962-a10a-4819-ac9c-5c5f00c268be?action=share&source=collection_link&creator=40383150"
+	},
+	"item": [
+		{
+			"name": "book",
+			"item": [
+				{
+					"name": "book",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODg1ZjZhMDc3NTBlZmNkYzAzNmE2NmUiLCJpYXQiOjE3NTM2MjAxODYsImV4cCI6MTc1MzYyMzc4Nn0.Synf-nceSXx7iYsBfmpw5L14jRvluenW4826EQS24zk"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n  {\r\n    \"isbn\": \"978013235088721\",\r\n    \"title\": \"Clean Code\",\r\n    \"author\": \"Robert C. Martin\",\r\n    \"publisher\": \"Prentice Hall\",\r\n    \"publishDate\": \"2008-08-01\",\r\n    \"category\": \"Programming\",\r\n    \"status\": \"Available\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "localhost:3000/api/book"
+					},
+					"response": []
+				},
+				{
+					"name": "books",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "bookOne",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "localhost:3000/api/book/BOOK_0001"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "reader",
+			"item": [
+				{
+					"name": "readerAdd",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "reader",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "readerOne",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "localhost:3000/api/reader/READER_0001"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "issueBook",
+			"item": [
+				{
+					"name": "getAll",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "returnUpdate",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Lakmal\",\r\n  \"lastName\": \"Kumarasiri\",\r\n  \"email\": \"lakmal@example.com\",\r\n  \"password\": \"SecurePass123!\",\r\n  \"role\": \"admin\"\r\n}\r\n"
+						},
+						"url": "localhost:3000/api/auth/"
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "getUser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/auth/users"
+					},
+					"response": []
+				},
+				{
+					"name": "refresh-token",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "email",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "submission",
+			"value": "https://api.postman.com/collections/40383150-6cdf91ea-3473-4fbc-85b1-b55795fff158?access_key=PMAT-01JYKBWJTZJEGNQ8WKZQWDK8A5",
+			"type": "string"
+		}
+	]
+}
